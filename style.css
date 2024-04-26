@@ -1,0 +1,107 @@
+/* Write some CSS below */
+.container {      
+    width : 1100px;
+    margin : 30px auto;
+
+}
+
+body {
+    background-color: white;
+    font-size: 20px;
+    color: rgb(10, 10, 11);
+    font-family: Roboto;
+    text-align: center;
+
+}
+
+h1, h2 {
+    font-family: Roboto;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    }
+
+h2 {
+    font-size: 30px;
+    color:#9f325f;
+    font-weight: 400;
+}
+
+
+.card-white {     
+    background: radial-gradient(circle, rgb(219, 180, 197) 0%, rgba(246,219,241,1) 100%);
+    border-radius: 5px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.8);
+    margin: 40px;
+    padding: 30px;
+    text-align: center;
+    line-height:140%;
+}
+
+.img-circle {   
+     width:250px;
+     height:250px;
+     border-radius: 50%;
+     background-color : white;
+     object-fit: cover;
+     margin-right: auto; 
+     margin-left: auto; 
+     box-shadow: 0 10px 20px rgba(29, 12, 12, 0.8);
+     transform: scale(1.1);
+
+     }
+
+
+
+ #introduction p {
+        
+    margin-bottom: 30px;
+    }  
+
+.list-inline  { 
+    list-style-type:none;
+    display: inline-block;
+    }
+
+
+.list-inline li  { 
+    display: inline;
+    text-align: center;
+    display: inline-block;
+}
+.list-inline li i {
+        
+    font-size : 60px;
+    color: black;
+    margin: 0 25px;
+ }
+                        
+ .btn-red{
+    text-decoration: none;
+    margin: 80px ;
+    background: #9f325f;
+    border-radius: 4px ;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+}
+  .btn-red:hover{
+    background-color: #121111e3 ;
+    color: white
+}
+
+.card-white ul {
+    text-align: left;
+}
+.card-white:hover{
+    box-shadow: 0 10px 20px rgba(29, 12, 12, 0.8);
+    transform: scale(1.1);
+}
+
+.card-white  {
+    text-align: center;
+}
